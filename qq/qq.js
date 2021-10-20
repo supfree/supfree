@@ -1,7 +1,7 @@
 $(function(){
 var qq=`
 <style>
-.main-im{position:fixed;bottom:10px;right:10px;z-index:100;width:110px;}
+.main-im{position:fixed;bottom:10px;right:10px;z-index:9999999999;width:110px;}
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd;text-align:center;position:relative;}
 .main-im .qq-a span{bottom:5px;position:absolute;width:90px;left:10px;}
 .main-im .qq-hover-c{width:70px;height:70px;border-radius:35px;position:absolute;left:18px;top:10px;overflow:hidden;z-index:9;}
