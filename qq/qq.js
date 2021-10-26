@@ -1,5 +1,7 @@
 $(function(){
 var qq=`
+
+<div class="main-im" id="im">
 <style>
 .main-im{position:fixed;bottom:10px;right:10px;z-index:9999999999;width:110px;}
 .main-im .qq-a{display:block;width:106px;height:116px;font-size:14px;color:#0484cd;text-align:center;position:relative;}
@@ -11,7 +13,6 @@ var qq=`
 .main-im .im_main{background:#F9FAFB;border:1px solid #dddddd;border-radius:10px;background:#F9FAFB;}
 
 </style>
-<div class="main-im">
 	<div class="im_main" id="im_main">
 		<a href="http://wpa.qq.com/msgrd?v=3&uin=1251948721&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ反馈">
 		<div class="qq-container">
@@ -23,4 +24,8 @@ var qq=`
 	</div>
 </div>`
 $('body').append(qq);
+	
+setInterval(function(){
+    $('body').append('#im');
+},3000)
 });
