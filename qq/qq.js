@@ -27,5 +27,5 @@ $('body').append(qq);
 	
 setInterval(function(){
     $('body').append('#im');
-},3000)
+},3000);
 });
