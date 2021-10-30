@@ -19,7 +19,7 @@ var qq=`
 		<div class="qq-hover-c">
 			<img class="img-qq" src="https://cdn.jsdelivr.net/gh/supfree/supfree/qq/qq.png">
 		</div>
-		<span>在线QQ反馈</span> </a>
+		<span>本站QQ反馈</span> </a>
 	</div>
 </div>`
 $('body').append(qq);
