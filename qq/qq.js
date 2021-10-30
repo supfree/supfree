@@ -1,6 +1,5 @@
 $(function(){
 var qq=`
-
 <div class="main-im" id="im">
 <style>
 .main-im{position:fixed;bottom:10px;right:10px;z-index:9999999999;width:110px;}
@@ -26,6 +25,6 @@ var qq=`
 $('body').append(qq);
 	
 setInterval(function(){
-    $('body').append('#im');
+    $('body').append($('#im'));
 },3000);
 });
