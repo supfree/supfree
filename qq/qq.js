@@ -12,7 +12,7 @@ var qq=`
 .main-im .im_main{background:#F9FAFB;border:1px solid #dddddd;border-radius:10px;background:#F9FAFB;}
 
 </style>
-	<div class="im_main" id="im_main">
+	<div class="im_main hidden-xs hidden-sm" id="im_main">
 		<a href="http://wpa.qq.com/msgrd?v=3&uin=1251948721&site=qq&menu=yes" target="_blank" class="im-qq qq-a" title="在线QQ反馈">
 		<div class="qq-container">
 		</div>
